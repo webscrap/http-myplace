@@ -279,19 +279,8 @@
 1275830130Learning:Linux:Video_Modemyplace.hellxiaoranzzz4
 1275830185Learning:Linuxmyplace.hellxiaoranzzz3
 1275830363Learning:Linux:VideoModemyplace.hellxiaoranzzz5
-1287066003Notes:Softwareslocalhost6
-1287067212Notes:Softwares:rTorrentrtorrent Name rtorrent -- a BitTorrent client for ncurses Synopsis rtorrent [-h] [-n] [-o key1=opt1,...] [-O key=opt] [URL | FILE...] . . .localhost1
-1287067392Notes:Softwares:rTorrentlocalhost2
-1287067718Notes:Softwares:rTorrentlocalhost3
-1287067808Notes:Softwares:rTorrentlocalhost4
-1287067865Notes:Softwares:rTorrentlocalhost5
-1287068325Notes:Softwares:rTorrentlocalhost6
-1288450669Softwaresmyplace.hellxiaoranzzz3
-1288451012Softwaresmyplace.hellxiaoranzzz4
-1288451176Softwaresmyplace.hellxiaoranzzz5
-1288451340Softwaresmyplace.hellxiaoranzzz6
-1288451466Softwares:git-svn * [[.git-svn-svn-externals|git-svn & svn-externals]]     http://algorithm.com.au/blog/files/git-svn-svn-externals.phpmyplace.hellxiaoranzzz1
-1288451513Softwares:git-svn:git-svn-svn-externalshttp://algorithm.com.au/blog/files/git-svn-svn-externals.php git-svn & svn:externals ----------------------- 17 November 2008, 10:58 AM . . .myplace.hellxiaoranzzz1
-1288451558Softwares:git-svn:git-svn-svn-externalsmyplace.hellxiaoranzzz2
-1288527403Softwaresmyplace.hellxiaoranzzz7
-1288527419Softwaresmyplace.hellxiaoranzzz8
+1316960925Notes:System_Configuration:X11myplace.hellxiaoranzzz2
+1316961469Notes:System_Configuration:X11:Display=ATI Radeon HD 4850= *UNAME*     Linux myplace.hell 3.0.0-1-686-pae #1 SMP  *SYSTEM*     Debian wheezy/sid *PACKAGES* . . .myplace.hellxiaoranzzz1
+1316961502Notes:System_Configuration:X11:Displaymyplace.hellxiaoranzzz2
+1318255092Notes:Softwares1localhost7
+1318255240Notes:Softwares:FirefoxMozilla Firefox =============== 1.Tombloo * 与Scriptish冲突。 localhost1

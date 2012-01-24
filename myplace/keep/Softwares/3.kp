@@ -1,27 +1,33 @@
-Booting
--------
+== Linux ==
 
-* [[.grub4dos|grub4dos]]
-* [[.syslinux|syslinux]]
-* [[.bootsect|bootsect]]
-** For repairing Vista and Xp bootsector as well as MBR.
-** This program is from microsoft, can be located under directory /boot in windows vista installation  CD.
+=== Booting === 
+## [[.grub4dos|grub4dos]]
 
-Disks
------
 
-* [[.PiriformDefraggler|PiriformDefraggler]]
-** Lite, free, easy to use.
 
-System Tweaking
----------------
+== Windows ==
 
-* [[.PiriformCCleaner|PiriformCCleaner]]
-** Lite, free, easy to use for cleaning up the system.
+=== Booting ===
+## [[.grub4dos|grub4dos]]
+## [[.bootsect|bootsect]]
+*** For repairing Vista and Xp bootsector as well as MBR.
+*** This program is from microsoft, can be located under directory /boot in windows vista installation  CD.
 
-version information
-------- -----------
-Revision 3, Last updated Sat Oct 30 22:57:49 2010, by xiaoranzzz@myplace.hell
-ts: 1288450669
+=== Disks ===
+## [[.PiriformDefraggler|PiriformDefraggler]]
+*** Lite, free, easy to use.
+
+=== System Tweaking ===
+## [[.PiriformCCleaner|PiriformCCleaner]]
+*** Lite, free, easy to use for cleaning up the system.
+---------<META>---------
+ip: 192.168.1.25
+ts: 1252698139
+minor: 
+host: myplace.hell
+username: xiaoranzzz
+revision: 3
+summary: == Linux == === Booting ===  # [[.grub4dos|grub4dos] == Windows == === Booting === # [[.grub4dos|grub4dos] # [[.bootsect|bootsect] . . .
+languages: 
 lastmajor: 3
-keep-ts: 1288451012
+keep-ts: 1274105866

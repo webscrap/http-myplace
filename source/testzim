@@ -1,0 +1,53 @@
+#!/usr/bin/perl -w
+package Oddmuse;
+use vars qw/$DataDir $ModuleDir $ZimDataParser/;
+use strict;
+our $DataDir = qq/test/;
+our $ModuleDir = qq/test/;
+
+sub ParseData {};
+sub EncodePage {};
+sub EscapeNewlines {
+  $_[0] =~ s/\n/\n\t/g;   # modify original instead of copying
+  return $_[0];
+}
+sub ReadFile {
+  my $fileName = shift;
+  if (open(IN, "<$fileName")) {
+    local $/ = undef;   # Read complete files
+    my $data=<IN>;
+    close IN;
+    return (1, $data);
+  }
+  return (0, '');
+}
+
+#do '../cgi-bin/oddmuse.pl';
+do 'xrzdebug.pl';
+do 'zim.pl';
+our $ZimDataParser = 1;
+
+my $file = shift;
+my $data;
+
+#open FO,"<:crlf",$file or die();
+#$data = join("",<FO>);
+#close FO;
+
+(undef,$data) = ReadFile($file);
+
+my %parsed = NewParseData($data);
+my $encoded = NewEncodePage(%parsed);
+my %reparsed = NewParseData($encoded);
+my $reencoded = NewEncodePage(%reparsed);
+
+use Data::Dumper;
+
+system("reset");
+
+print STDERR Data::Dumper->Dump([\%parsed,\%reparsed],[qw/%parsed %reparsed/]);
+print STDERR Data::Dumper->Dump([$data,$encoded,$reencoded],[qw/$data $encoded $reencoded/]);
+
+print STDERR "data = encoded ?", $data eq $encoded ? "yes" :"no", "\n";
+print STDERR "data = reencoded ?", $data eq $reencoded ? "yes" :"no", "\n";
+print STDERR "encoded = reencoded ?", $encoded eq $reencoded ? "yes" :"no", "\n";

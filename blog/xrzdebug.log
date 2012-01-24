@@ -1074,24 +1074,3 @@ CleanPath: [Main] ===> [Main]
 Read /myplace/workspace/wiki/blog/page/Main.txt
 SCRIPT_NAME=/blog, REQUEST_URI=/blog/2009-08-24_已标点 , ID=2009-08-24_已标点
 CleanPath: [2009-08-24_已标点] ===> [2009-08-24_已标点]
-CleanPath: [Categories] ===> [Categories]
-GetPageFile:Categories====>/myplace/workspace/www/blog/page/Categories.txt
-CleanPath: [Main] ===> [Main]
-GetPageFile:Main====>/myplace/workspace/www/blog/page/Main.txt
-CleanPath: [Main] ===> [Main]
-GetPageFile:Main====>/myplace/workspace/www/blog/page/Main.txt
-CleanPath: [Main] ===> [Main]
-CleanPath: [Categories] ===> [Categories]
-GetPageFile:Categories====>/myplace/workspace/www/blog/page/Categories.txt
-CleanPath: [Main] ===> [Main]
-GetPageFile:Main====>/myplace/workspace/www/blog/page/Main.txt
-CleanPath: [Main] ===> [Main]
-GetPageFile:Main====>/myplace/workspace/www/blog/page/Main.txt
-CleanPath: [Main] ===> [Main]
-CleanPath: [Categories] ===> [Categories]
-GetPageFile:Categories====>/myplace/workspace/www/blog/page/Categories.txt
-CleanPath: [Main] ===> [Main]
-GetPageFile:Main====>/myplace/workspace/www/blog/page/Main.txt
-CleanPath: [Main] ===> [Main]
-GetPageFile:Main====>/myplace/workspace/www/blog/page/Main.txt
-CleanPath: [Main] ===> [Main]

@@ -5855,15 +5855,3 @@ CreateDir /myplace/workspace/wiki/sandbox/temp
 ResolveId faild for AppleScript
 ResolveId faild for Main:WhatEver
 ResolveId faild for Main:WhatEver
-CreateDir /myplace/workspace/www/sandbox
-CreateDir /myplace/workspace/www/sandbox/temp
-CreateDir /myplace/workspace/www/sandbox
-CreateDir /myplace/workspace/www/sandbox/temp
-CreateDir /myplace/workspace/www/sandbox
-CreateDir /myplace/workspace/www/sandbox/temp
-CreateDir /myplace/workspace/www/sandbox
-CreateDir /myplace/workspace/www/sandbox/temp
-CreateDir /myplace/workspace/www/sandbox
-CreateDir /myplace/workspace/www/sandbox/temp
-CreateDir /myplace/workspace/www/sandbox
-CreateDir /myplace/workspace/www/sandbox/temp

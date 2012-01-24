@@ -1,0 +1,27 @@
+=ATI Radeon HD 4850=
+
+*UNAME*
+    Linux myplace.hell 3.0.0-1-686-pae #1 SMP 
+
+*SYSTEM*
+    Debian wheezy/sid
+
+*PACKAGES*
+    xserver-xorg-video-radeon
+    libgl1-mesa-glx libgl1-mesa-dri
+
+*SETUP*
+    Install all needed packages.
+    Edit /etc/modprobe/radeon-kms.conf, setting modset=1.
+    Add 'drm' and 'radeon' to '/etc/modules' and /etc/initramfs-tools/modules
+    Set Device Driver to 'ati' or 'radeon' in /etc/X11/xorg.conf
+    Delete and re-create /boot/initrc.img-*
+    Reboot.
+
+
+version information
+------- -----------
+Revision 1, Last updated Sun Sep 25 22:37:49 2011, by xiaoranzzz@myplace.hell
+ts: 1316961469
+lastmajor: 1
+keep-ts: 1316961502

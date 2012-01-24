@@ -1,0 +1,247 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AddComment	oddmuse.pl	/^sub AddComment {$/;"	s
+AddHtmlEnvironment	oddmuse.pl	/^sub AddHtmlEnvironment {  # add a new $html_tag$/;"	s
+AddOrCloseHtmlEnvironment	oddmuse.pl	/^sub AddOrCloseHtmlEnvironment {  # add $html_tag, if not already added; close, otherwise$/;"	s
+AddRecentVisitor	oddmuse.pl	/^sub AddRecentVisitor {$/;"	s
+AllPagesList	oddmuse.pl	/^sub AllPagesList {$/;"	s
+AppendStringToFile	oddmuse.pl	/^sub AppendStringToFile {$/;"	s
+ApplyRules	oddmuse.pl	/^sub ApplyRules {$/;"	s
+BannedContent	oddmuse.pl	/^sub BannedContent {$/;"	s
+BracketLink	oddmuse.pl	/^sub BracketLink {   # brackets can be removed via CSS$/;"	s
+BrowsePage	oddmuse.pl	/^sub BrowsePage {$/;"	s
+BrowseRc	oddmuse.pl	/^sub BrowseRc {$/;"	s
+BrowseResolvedPage	oddmuse.pl	/^sub BrowseResolvedPage {$/;"	s
+CalcDay	oddmuse.pl	/^sub CalcDay {$/;"	s
+CalcTime	oddmuse.pl	/^sub CalcTime {$/;"	s
+CalcTimeSince	oddmuse.pl	/^sub CalcTimeSince {$/;"	s
+Clean	oddmuse.pl	/^sub Clean {$/;"	s
+CloseHtmlEnvironment	oddmuse.pl	/^sub CloseHtmlEnvironment {  # close environments up to and including $html_tag$/;"	s
+CloseHtmlEnvironmentUntil	oddmuse.pl	/^sub CloseHtmlEnvironmentUntil {  # close environments up to but not including $html_tag$/;"	s
+CloseHtmlEnvironments	oddmuse.pl	/^sub CloseHtmlEnvironments { # close all -- remember to use AddHtmlEnvironment('p') if required!$/;"	s
+Cookie	oddmuse.pl	/^sub Cookie {$/;"	s
+CookieData	oddmuse.pl	/^sub CookieData {$/;"	s
+CookieRollbackFix	oddmuse.pl	/^sub CookieRollbackFix {$/;"	s
+CookieUsernameFix	oddmuse.pl	/^sub CookieUsernameFix {$/;"	s
+CreateDir	oddmuse.pl	/^sub CreateDir {$/;"	s
+CreateKeepDir	oddmuse.pl	/^sub CreateKeepDir {$/;"	s
+CreatePageDir	oddmuse.pl	/^sub CreatePageDir {$/;"	s
+DebugInterLinks	oddmuse.pl	/^sub DebugInterLinks {$/;"	s
+DelayRequired	oddmuse.pl	/^sub DelayRequired {$/;"	s
+DeletePage	oddmuse.pl	/^sub DeletePage {    # Delete must be done inside locks.$/;"	s
+DiffAddPrefix	oddmuse.pl	/^sub DiffAddPrefix {$/;"	s
+DiffHtmlMarkWords	oddmuse.pl	/^sub DiffHtmlMarkWords {$/;"	s
+DiffMarkWords	oddmuse.pl	/^sub DiffMarkWords {$/;"	s
+DiffStripPrefix	oddmuse.pl	/^sub DiffStripPrefix {$/;"	s
+Dirty	oddmuse.pl	/^sub Dirty { # arg 1 is the raw text; the real output must be printed instead$/;"	s
+DoAdminPage	oddmuse.pl	/^sub DoAdminPage {$/;"	s
+DoBrowseRequest	oddmuse.pl	/^sub DoBrowseRequest {$/;"	s
+DoClearCache	oddmuse.pl	/^sub DoClearCache {$/;"	s
+DoContributors	oddmuse.pl	/^sub DoContributors {$/;"	s
+DoCss	oddmuse.pl	/^sub DoCss {$/;"	s
+DoDebug	oddmuse.pl	/^sub DoDebug {$/;"	s
+DoDiff	oddmuse.pl	/^sub DoDiff {      # Actualy call the diff program$/;"	s
+DoDownload	oddmuse.pl	/^sub DoDownload {$/;"	s
+DoEdit	oddmuse.pl	/^sub DoEdit {$/;"	s
+DoEditLock	oddmuse.pl	/^sub DoEditLock {$/;"	s
+DoHistory	oddmuse.pl	/^sub DoHistory {$/;"	s
+DoIndex	oddmuse.pl	/^sub DoIndex {$/;"	s
+DoJournal	oddmuse.pl	/^sub DoJournal {$/;"	s
+DoMaintain	oddmuse.pl	/^sub DoMaintain {$/;"	s
+DoPageLock	oddmuse.pl	/^sub DoPageLock {$/;"	s
+DoPassword	oddmuse.pl	/^sub DoPassword {$/;"	s
+DoPost	oddmuse.pl	/^sub DoPost {$/;"	s
+DoRandom	oddmuse.pl	/^sub DoRandom {$/;"	s
+DoRollback	oddmuse.pl	/^sub DoRollback {$/;"	s
+DoRss	oddmuse.pl	/^sub DoRss {$/;"	s
+DoSearch	oddmuse.pl	/^sub DoSearch {$/;"	s
+DoShowVersion	oddmuse.pl	/^sub DoShowVersion {$/;"	s
+DoSurgeProtection	oddmuse.pl	/^sub DoSurgeProtection {$/;"	s
+DoUnlock	oddmuse.pl	/^sub DoUnlock {$/;"	s
+DoWikiRequest	oddmuse.pl	/^sub DoWikiRequest {$/;"	s
+EncodePage	oddmuse.pl	/^sub EncodePage {$/;"	s
+EscapeNewlines	oddmuse.pl	/^sub EscapeNewlines {$/;"	s
+ExpireKeepFiles	oddmuse.pl	/^sub ExpireKeepFiles {   # call with opened page$/;"	s
+FileFresh	oddmuse.pl	/^sub FileFresh { # old files are never stale, current files are stale when the page was modified$/;"	s
+ForceReleaseLock	oddmuse.pl	/^sub ForceReleaseLock {$/;"	s
+FreeToNormal	oddmuse.pl	/^sub FreeToNormal {    # trim all spaces and convert them to underlines$/;"	s
+GetAuthorLink	oddmuse.pl	/^sub GetAuthorLink {$/;"	s
+GetCacheDiff	oddmuse.pl	/^sub GetCacheDiff {$/;"	s
+GetCluster	oddmuse.pl	/^sub GetCluster {$/;"	s
+GetCommentForm	oddmuse.pl	/^sub GetCommentForm {$/;"	s
+GetCss	oddmuse.pl	/^sub GetCss {      # prevent javascript injection$/;"	s
+GetDiff	oddmuse.pl	/^sub GetDiff {$/;"	s
+GetDownloadLink	oddmuse.pl	/^sub GetDownloadLink {$/;"	s
+GetEditForm	oddmuse.pl	/^sub GetEditForm {$/;"	s
+GetEditLink	oddmuse.pl	/^sub GetEditLink {   # shortcut$/;"	s
+GetFeeds	oddmuse.pl	/^sub GetFeeds {      # default for $HtmlHeaders$/;"	s
+GetFilterForm	oddmuse.pl	/^sub GetFilterForm {$/;"	s
+GetFooterLinks	oddmuse.pl	/^sub GetFooterLinks {$/;"	s
+GetFooterTimestamp	oddmuse.pl	/^sub GetFooterTimestamp {$/;"	s
+GetFormStart	oddmuse.pl	/^sub GetFormStart {$/;"	s
+GetGotoBar	oddmuse.pl	/^sub GetGotoBar {    # ignore $id parameter$/;"	s
+GetHeader	oddmuse.pl	/^sub GetHeader {$/;"	s
+GetHiddenValue	oddmuse.pl	/^sub GetHiddenValue {$/;"	s
+GetHistoryLine	oddmuse.pl	/^sub GetHistoryLine {$/;"	s
+GetHistoryLink	oddmuse.pl	/^sub GetHistoryLink {$/;"	s
+GetHtmlHeader	oddmuse.pl	/^sub GetHtmlHeader {   # always HTML!$/;"	s
+GetHttpHeader	oddmuse.pl	/^sub GetHttpHeader {$/;"	s
+GetId	oddmuse.pl	/^sub GetId {$/;"	s
+GetInterLink	oddmuse.pl	/^sub GetInterLink {$/;"	s
+GetInterSiteUrl	oddmuse.pl	/^sub GetInterSiteUrl {$/;"	s
+GetKeepDir	oddmuse.pl	/^sub GetKeepDir {$/;"	s
+GetKeepFile	oddmuse.pl	/^sub GetKeepFile {$/;"	s
+GetKeepFiles	oddmuse.pl	/^sub GetKeepFiles {$/;"	s
+GetKeepRevisions	oddmuse.pl	/^sub GetKeepRevisions {$/;"	s
+GetKeptDiff	oddmuse.pl	/^sub GetKeptDiff {$/;"	s
+GetKeptRevision	oddmuse.pl	/^sub GetKeptRevision {   # Call after OpenPage$/;"	s
+GetLanguages	oddmuse.pl	/^sub GetLanguages {$/;"	s
+GetLockedPageFile	oddmuse.pl	/^sub GetLockedPageFile {$/;"	s
+GetOldPageLink	oddmuse.pl	/^sub GetOldPageLink {$/;"	s
+GetPageContent	oddmuse.pl	/^sub GetPageContent {$/;"	s
+GetPageDirectory	oddmuse.pl	/^sub GetPageDirectory {$/;"	s
+GetPageFile	oddmuse.pl	/^sub GetPageFile {$/;"	s
+GetPageLink	oddmuse.pl	/^sub GetPageLink { # use if you want to force a link to local pages, whether it exists or not$/;"	s
+GetPageOrEditLink	oddmuse.pl	/^sub GetPageOrEditLink { # use GetPageLink and GetEditLink if you know the result!$/;"	s
+GetPageParameters	oddmuse.pl	/^sub GetPageParameters {$/;"	s
+GetParam	oddmuse.pl	/^sub GetParam {$/;"	s
+GetRCLink	oddmuse.pl	/^sub GetRCLink {$/;"	s
+GetRaw	oddmuse.pl	/^sub GetRaw {$/;"	s
+GetRcLines	oddmuse.pl	/^sub GetRcLines { # starttime, hash of seen pages to use as a second return value$/;"	s
+GetRcLinesFor	oddmuse.pl	/^sub GetRcLinesFor {$/;"	s
+GetRcRss	oddmuse.pl	/^sub GetRcRss {$/;"	s
+GetRedirectPage	oddmuse.pl	/^sub GetRedirectPage {$/;"	s
+GetRemoteHost	oddmuse.pl	/^sub GetRemoteHost { # when testing, these variables are undefined.$/;"	s
+GetRobots	oddmuse.pl	/^sub GetRobots { # NOINDEX for non-browse pages.$/;"	s
+GetRss	oddmuse.pl	/^sub GetRss {$/;"	s
+GetRssFile	oddmuse.pl	/^sub GetRssFile {$/;"	s
+GetSearchForm	oddmuse.pl	/^sub GetSearchForm {$/;"	s
+GetSearchLink	oddmuse.pl	/^sub GetSearchLink {$/;"	s
+GetSummary	oddmuse.pl	/^sub GetSummary {$/;"	s
+GetTextArea	oddmuse.pl	/^sub GetTextArea {$/;"	s
+GetTextAtTime	oddmuse.pl	/^sub GetTextAtTime { # call with opened page, return $minor if all pages between now and $ts are minor!$/;"	s
+GetTextRevision	oddmuse.pl	/^sub GetTextRevision {$/;"	s
+GetUpload	oddmuse.pl	/^sub GetUpload {$/;"	s
+GetUrl	oddmuse.pl	/^sub GetUrl {$/;"	s
+GetValidatorLink	oddmuse.pl	/^sub GetValidatorLink {$/;"	s
+GrepFiltered	oddmuse.pl	/^sub GrepFiltered { # grep is so much faster!!$/;"	s
+ImproveDiff	oddmuse.pl	/^sub ImproveDiff {      # NO NEED TO BE called within a diff lock$/;"	s
+InElement	oddmuse.pl	/^sub InElement {  # is $html_tag in @HtmlStack?$/;"	s
+Init	oddmuse.pl	/^sub Init {$/;"	s
+InitConfig	oddmuse.pl	/^sub InitConfig {$/;"	s
+InitCookie	oddmuse.pl	/^sub InitCookie {$/;"	s
+InitDirConfig	oddmuse.pl	/^sub InitDirConfig {$/;"	s
+InitLinkPatterns	oddmuse.pl	/^sub InitLinkPatterns {$/;"	s
+InitModules	oddmuse.pl	/^sub InitModules {$/;"	s
+InitRequest	oddmuse.pl	/^sub InitRequest {$/;"	s
+InitVariables	oddmuse.pl	/^sub InitVariables {  # Init global session variables for mod_perl!$/;"	s
+InterInit	oddmuse.pl	/^sub InterInit {$/;"	s
+ItemName	oddmuse.pl	/^sub ItemName {$/;"	s
+JournalSort	oddmuse.pl	/^sub JournalSort { $b cmp $a }$/;"	s
+LatestChanges	oddmuse.pl	/^sub LatestChanges {$/;"	s
+LinkRules	oddmuse.pl	/^sub LinkRules {$/;"	s
+ListRule	oddmuse.pl	/^sub ListRule {$/;"	s
+MergeRevisions	oddmuse.pl	/^sub MergeRevisions {   # merge change from file2 to file3 into file1$/;"	s
+NormalToFree	oddmuse.pl	/^sub NormalToFree {$/;"	s
+OddMuse	oddmuse.pl	/^package OddMuse;$/;"	p
+OpenHtmlEnvironment	oddmuse.pl	/^sub OpenHtmlEnvironment {  # close the previous $html_tag and open a new one$/;"	s
+OpenPage	oddmuse.pl	/^sub OpenPage {      # Sets global variables$/;"	s
+PageDeletable	oddmuse.pl	/^sub PageDeletable {$/;"	s
+PageEtag	oddmuse.pl	/^sub PageEtag {$/;"	s
+PageFresh	oddmuse.pl	/^sub PageFresh { # pages can depend on other pages (ie. last update), admin status, and css$/;"	s
+PageHtml	oddmuse.pl	/^sub PageHtml {  #FIXME: A bit buggy, this. STDOUT should be explicitly closed before returning.$/;"	s
+PageIsUploadedFile	oddmuse.pl	/^sub PageIsUploadedFile {$/;"	s
+ParseData	oddmuse.pl	/^sub ParseData {      # called a lot during search, so it was optimized$/;"	s
+PrintAllPages	oddmuse.pl	/^sub PrintAllPages {$/;"	s
+PrintCache	oddmuse.pl	/^sub PrintCache {    # Use after OpenPage!$/;"	s
+PrintFooter	oddmuse.pl	/^sub PrintFooter {$/;"	s
+PrintHtmlDiff	oddmuse.pl	/^sub PrintHtmlDiff {$/;"	s
+PrintJournal	oddmuse.pl	/^sub PrintJournal {$/;"	s
+PrintPage	oddmuse.pl	/^sub PrintPage {$/;"	s
+PrintPageContent	oddmuse.pl	/^sub PrintPageContent {$/;"	s
+PrintPageDiff	oddmuse.pl	/^sub PrintPageDiff {   # print diff for open page$/;"	s
+PrintPageHtml	oddmuse.pl	/^sub PrintPageHtml {   # print an open page$/;"	s
+PrintRcHtml	oddmuse.pl	/^sub PrintRcHtml { # to append RC to existing page, or action=rc directly$/;"	s
+PrintRcText	oddmuse.pl	/^sub PrintRcText { # print text rss header and call ProcessRcLines$/;"	s
+PrintSearchResult	oddmuse.pl	/^sub PrintSearchResult {$/;"	s
+PrintSearchResultEntry	oddmuse.pl	/^sub PrintSearchResultEntry {$/;"	s
+PrintWikiToHTML	oddmuse.pl	/^sub PrintWikiToHTML {$/;"	s
+ProcessRcLines	oddmuse.pl	/^sub ProcessRcLines {$/;"	s
+QuoteHtml	oddmuse.pl	/^sub QuoteHtml {$/;"	s
+QuoteRegexp	oddmuse.pl	/^sub QuoteRegexp {$/;"	s
+RSS	oddmuse.pl	/^sub RSS {$/;"	s
+RcHeader	oddmuse.pl	/^sub RcHeader {$/;"	s
+RcHtml	oddmuse.pl	/^sub RcHtml {$/;"	s
+RcTextItem	oddmuse.pl	/^sub RcTextItem {$/;"	s
+RcTextRevision	oddmuse.pl	/^sub RcTextRevision {$/;"	s
+ReBrowsePage	oddmuse.pl	/^sub ReBrowsePage {$/;"	s
+ReInit	oddmuse.pl	/^sub ReInit {   # init everything we need if we want to link to stuff$/;"	s
+ReadFile	oddmuse.pl	/^sub ReadFile {$/;"	s
+ReadFileOrDie	oddmuse.pl	/^sub ReadFileOrDie {$/;"	s
+ReadRecentVisitors	oddmuse.pl	/^sub ReadRecentVisitors {$/;"	s
+ReleaseLock	oddmuse.pl	/^sub ReleaseLock {$/;"	s
+ReleaseLockDir	oddmuse.pl	/^sub ReleaseLockDir {$/;"	s
+Replace	oddmuse.pl	/^sub Replace {$/;"	s
+ReportError	oddmuse.pl	/^sub ReportError {   # fatal!$/;"	s
+RequestLockDir	oddmuse.pl	/^sub RequestLockDir {$/;"	s
+RequestLockOrError	oddmuse.pl	/^sub RequestLockOrError {$/;"	s
+ResolveId	oddmuse.pl	/^sub ResolveId { # return css class, resolved id, title (eg. for popups), exist-or-not$/;"	s
+RollbackPossible	oddmuse.pl	/^sub RollbackPossible {$/;"	s
+RssInterwikiTranslateInit	oddmuse.pl	/^sub RssInterwikiTranslateInit {$/;"	s
+RssItem	oddmuse.pl	/^sub RssItem {$/;"	s
+RunMyMacros	oddmuse.pl	/^sub RunMyMacros {$/;"	s
+RunMyRules	oddmuse.pl	/^sub RunMyRules {$/;"	s
+Save	oddmuse.pl	/^sub Save {      # call within lock, with opened page$/;"	s
+SaveKeepFile	oddmuse.pl	/^sub SaveKeepFile {$/;"	s
+SavePage	oddmuse.pl	/^sub SavePage { # updating the cache will not change timestamp and revision!$/;"	s
+ScriptLink	oddmuse.pl	/^sub ScriptLink {$/;"	s
+ScriptLinkDiff	oddmuse.pl	/^sub ScriptLinkDiff {$/;"	s
+ScriptUrl	oddmuse.pl	/^sub ScriptUrl {$/;"	s
+SearchExtract	oddmuse.pl	/^sub SearchExtract {$/;"	s
+SearchHighlight	oddmuse.pl	/^sub SearchHighlight {$/;"	s
+SearchMenu	oddmuse.pl	/^sub SearchMenu {$/;"	s
+SearchRegexp	oddmuse.pl	/^sub SearchRegexp {$/;"	s
+SearchResultCount	oddmuse.pl	/^sub SearchResultCount { $q->p({-class=>'result'}, Ts('%s pages found.', (shift))); }$/;"	s
+SearchString	oddmuse.pl	/^sub SearchString {$/;"	s
+SearchTitleAndBody	oddmuse.pl	/^sub SearchTitleAndBody { # expects search string to be HTML quoted and will unquote it$/;"	s
+SetHtmlEnvironmentContainer	oddmuse.pl	/^sub SetHtmlEnvironmentContainer {$/;"	s
+SetParam	oddmuse.pl	/^sub SetParam {$/;"	s
+SmileyReplace	oddmuse.pl	/^sub SmileyReplace {$/;"	s
+StripRollbacks	oddmuse.pl	/^sub StripRollbacks {$/;"	s
+T	oddmuse.pl	/^sub T {$/;"	s
+TextIsFile	oddmuse.pl	/^sub TextIsFile { $_[0] =~ \/^#FILE (\\S+)\\n\/ }$/;"	s
+TimeToRFC822	oddmuse.pl	/^sub TimeToRFC822 {$/;"	s
+TimeToText	oddmuse.pl	/^sub TimeToText {$/;"	s
+TimeToW3	oddmuse.pl	/^sub TimeToW3 { # Complete date plus hours and minutes: YYYY-MM-DDThh:mmTZD (eg 1997-07-16T19:20+01:00)$/;"	s
+TouchIndexFile	oddmuse.pl	/^sub TouchIndexFile {$/;"	s
+Ts	oddmuse.pl	/^sub Ts {$/;"	s
+Tss	oddmuse.pl	/^sub Tss {$/;"	s
+UnWiki	oddmuse.pl	/^sub UnWiki {$/;"	s
+UnquoteHtml	oddmuse.pl	/^sub UnquoteHtml {$/;"	s
+UpdateDiffs	oddmuse.pl	/^sub UpdateDiffs { # this could be optimized, but isn't frequent enough$/;"	s
+UrlDecode	oddmuse.pl	/^sub UrlDecode {$/;"	s
+UrlEncode	oddmuse.pl	/^sub UrlEncode {$/;"	s
+UserCanEdit	oddmuse.pl	/^sub UserCanEdit {$/;"	s
+UserIsAdmin	oddmuse.pl	/^sub UserIsAdmin {$/;"	s
+UserIsAdminOrError	oddmuse.pl	/^sub UserIsAdminOrError {$/;"	s
+UserIsBanned	oddmuse.pl	/^sub UserIsBanned {$/;"	s
+UserIsEditor	oddmuse.pl	/^sub UserIsEditor {$/;"	s
+UserIsEditorOrError	oddmuse.pl	/^sub UserIsEditorOrError {$/;"	s
+ValidId	oddmuse.pl	/^sub ValidId { # hack alert: returns error message if invalid, and unfortunately the empty string if valid!$/;"	s
+ValidIdOrDie	oddmuse.pl	/^sub ValidIdOrDie {$/;"	s
+WriteRcLog	oddmuse.pl	/^sub WriteRcLog {$/;"	s
+WriteRecentVisitors	oddmuse.pl	/^sub WriteRecentVisitors {$/;"	s
+WriteStringToFile	oddmuse.pl	/^sub WriteStringToFile {$/;"	s
+http	oddmuse.pl	/^             http:\/\/www.emacswiki.org\/css\/beige-red.css$/;"	l
+http	oddmuse.pl	/^             http:\/\/www.emacswiki.org\/css\/blue.css$/;"	l
+http	oddmuse.pl	/^             http:\/\/www.emacswiki.org\/css\/cali.css$/;"	l
+http	oddmuse.pl	/^             http:\/\/www.emacswiki.org\/css\/green.css$/;"	l
+http	oddmuse.pl	/^             http:\/\/www.emacswiki.org\/css\/hug.css$/;"	l
+http	oddmuse.pl	/^             http:\/\/www.emacswiki.org\/css\/oddmuse.css$/;"	l
+http	oddmuse.pl	/^             http:\/\/www.emacswiki.org\/css\/wikio.css); # List of Oddmuse CSS URLs$/;"	l
+xmlns	oddmuse.pl	/^    xmlns:cc="http:\/\/backend.userland.com\/creativeCommonsRssModule">$/;"	l
+xmlns	oddmuse.pl	/^    xmlns:wiki="http:\/\/purl.org\/rss\/1.0\/modules\/wiki\/"$/;"	l
