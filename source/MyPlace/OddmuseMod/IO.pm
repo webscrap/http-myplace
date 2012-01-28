@@ -9,8 +9,12 @@ $ModuleFSEncoding = 1;
 $WikiEncodingName = "utf8";
 
 use MyPlace::OddmuseMod::Debug;
+use MyPlace::OddmuseMod::Hook;
+my $PACKAGE_MAIN = 'OddMuse';
+my $DEBUG = new MyPlace::OddmuseMod::Debug;
+my $HOOK = new MyPlace::OddmuseMod::Hook;
 #do "$ModuleDir/xrzdebug.pl" unless($ModuleXRZDebug);
-xrz_debug_hook("CreateDir","WriteStringToFile","ReadFile","AppendStringToFile");
+$HOOK->hook($PACKAGE_MAIN,"CreateDir","WriteStringToFile","ReadFile","AppendStringToFile");
 
 #  ReportError(T('Cannot save a nameless page.'), '400 BAD REQUEST', 1) unless $OpenPageName;
 sub NewAppendStringToFile {
@@ -28,7 +32,7 @@ sub NewAppendStringToFile {
 sub NewReadFile {
     my $file = shift;
     $file =  _from_to($file,$WikiEncodingName,$FSEncodingName) if($FSEncodingName);
-#    xrz_debug_log("Read $file\n");
+    $DEBUG->log("Read $file\n");
     if (open(IN, "<:perlio",$file)) {
         local $/ = undef;   # Read complete files
         my $data=<IN>;
@@ -55,8 +59,8 @@ sub NewWriteStringToFile {
 sub NewCreateDir {
     return unless @_;
    my $dir = $FSEncodingName ? _from_to($_[0],$WikiEncodingName,$FSEncodingName) : $_[0];
-    xrz_debug_log("CreateDir $dir\n");
-    return OldCreateDir($dir);
+	$DEBUG->log("CreateDir $dir\n");
+   return OldCreateDir($dir);
    my @parts = split(/[\/\\]/,$dir);
    my $cdir = shift @parts;
    OldCreateDir($cdir) if($cdir);

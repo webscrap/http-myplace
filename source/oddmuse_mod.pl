@@ -32,8 +32,9 @@ $ModulesDescription %Action %RuleOrder %Includes %RssInterwikiTranslate);
 
 use lib $ModuleDir;
 use MyPlace::OddmuseMod;
-use MyPlace::OddmuseMod::Utils;
 use MyPlace::OddmuseMod::Debug;
+use MyPlace::OddmuseMod::Utils;
+use MyPlace::OddmuseMod::Hook;
 use MyPlace::OddmuseMod::IO;
 use MyPlace::OddmuseMod::PageId;
 use MyPlace::OddmuseMod::Page;

@@ -1,10 +1,10 @@
 #package MyPlace::OddmuseMod::Page;
 use strict;
-use File::Spec::Functions;
-use vars qw/$ModulesDescription $ModuleDir $PageInCatalog $ModuleXRZPage $ModuleXRZDebug $PageDirectoryBase $PageFileExt $PageDirSubExp $KeepDirSubExp $PageDir $KeepDir $DataDir $FSEncodingName $ModuleXRZUtils/;
+use File::Spec::Functions qw/catfile catdir splitdir rootdir/;
+use vars qw/$ModulesDescription $ModuleDir $PageInCatalog $ModuleXRZPage $PageDirectoryBase $PageFileExt $PageDir $KeepDir $DataDir $FSEncodingName/;
 
 unless($ModuleXRZPage) {
-$ModulesDescription .= '<p>$Id: xrzpage.pl,v 0.1 2009/08/21  $<br />   -   Map page Id to filesystem structure</p>';
+$ModulesDescription .= '<p>$Id: MyPlace::OddMuse::Page,v 0.1 2009/08/21  $<br />   -   Map page Id to filesystem structure</p>';
 
 $ModuleXRZPage = 1;
 $PageDirectoryBase = undef;
@@ -12,16 +12,16 @@ $PageFileExt = undef;
 $PageInCatalog = 0;
 
 use MyPlace::OddmuseMod::Debug;
-use MyPlace::OddmuseMod::IO;
-#use MyPlace::OddmuseMod::Utils;
-
-#use vars qw/$Utils/;
+use MyPlace::OddmuseMod::Hook;
+my $PACKAGE_MAIN = 'OddMuse';
+my $DEBUG = new MyPlace::OddmuseMod::Debug;
+my $HOOK = new MyPlace::OddmuseMod::Hook;
 
 sub _CleanPath {
     my $r = shift;
-    &xrz_debug_log("CleanPath: [$r] ===>");
+    #$DEBUG->log("CleanPath: [$r] ===>");
     $r =~ s/[\\\/\:]+/\//go;
-    &xrz_debug_log(" [$r]\n");
+    #$DEBUG->log(" [$r]\n");
     return $r;
 }
 
@@ -29,51 +29,117 @@ sub _BaseName {
     return unless($_[0]);
     my $id = $_[0];
     $id =~ s/(?:^.*[\/\\:]+|[\/:\\]+$)//;
-    &xrz_debug_log("_BaseName:@_===>$id\n");
+    $DEBUG->log("_BaseName:@_===>$id\n");
     return $id;
 }
 
 sub ExMakeDir {
     return unless(@_);
-    my @parts = split('/',$_[0]);
-    my $dir = shift @parts;
-    &xrz_debug_log("ExMakeDir $dir\n") if($dir);
-    CreateDir($dir) if($dir);
-    foreach(@parts) {
-        $dir .= '/' . $_;
-    &xrz_debug_log("ExMakeDir $dir\n");
-        CreateDir($dir);
-    }
+	foreach(@_) {
+		my @dirs = splitdir($_);
+		my $path = rootdir();
+	    foreach my $part (@dirs) {
+			$path = catdir($path,$part);
+			next if(-d $path);
+	        CreateDir($path);
+		}
+	}
 }
 
-&xrz_debug_hook("GetPageFile","GetPageDirectory","CreateKeepDir","CreatePageDir");
-sub NewCreatePageDir {
-  my ($dir, $id) = @_;
-  &xrz_debug_log("CreatePageDir:[$dir] :$id\n");
-  ExMakeDir($dir . '/' . &NewGetPageDirectory($id));
-}
+
+$HOOK->hook($PACKAGE_MAIN,"CreateKeepDir");
 sub NewCreateKeepDir {
   my ($dir, $id) = @_;
-  &xrz_debug_log("CreateKeepDir $id\n");
-  return ExMakeDir($dir . '/' . _CleanPath($id));
+  ExMakeDir(&catdir($dir,_CleanPath($id)));
+  $DEBUG->log("CreateKeepDir $dir,$id\n");
 }
+
+$HOOK->hook($PACKAGE_MAIN,"GetKeepFile");
+sub NewGetKeepFile {
+  my ($id, $revision) = @_; die 'No revision' unless $revision; #FIXME
+  my $r = catfile(NewGetKeepDir($id),"$revision.kp");
+  $DEBUG->log("GetKeepFile:$id,$revision => $r\n");
+  return $r;
+}
+
+
+$HOOK->hook($PACKAGE_MAIN,"GetKeepDir");
+sub NewGetKeepDir {
+  my $id = shift; die 'No id' unless $id;
+  my $r = catdir($KeepDir,_CleanPath($id));
+  $DEBUG->log("GetKeepDir:$id => $r\n");
+  return $r;
+}
+
+
+$HOOK->hook($PACKAGE_MAIN,"GetKeepFiles");
+use File::Glob qw/bsd_glob/;
+sub NewGetKeepFiles {
+    my $id = shift;
+    my @files = bsd_glob(catfile(NewGetKeepDir($id), "*.kp"));
+    $DEBUG->log("GetKeepFiles: $id====>@files\n");
+    if($FSEncodingName && @files) {
+        map {$_ = _from_to($_,$FSEncodingName,"utf8");$_} @files;
+    }
+    $DEBUG->log("GetKeepFiles: @files\n");
+    return @files;
+}
+
+sub split_id {
+	my $id = shift;
+	return undef,undef unless($id);
+	if($id =~ m/(.*)([\/:])([^\1]+)$/) {
+		return $1,$3;
+	}
+	else {
+		return undef,$id;
+	}
+}
+
+
+sub GetPageDir {
+	my($dir,$name) = split_id(@_);
+	my @r;
+	if(!$dir) {
+		@r = ($PageDir,$name);
+	}
+	@r = (catdir($PageDir,_CleanPath($dir)),$name);
+	if(wantarray) {
+		return @r;
+	}
+	else {
+		return $r[0];
+	}
+}
+
 sub NewGetPageFile {
     return unless($_[0]);
-	my $id = shift;
-	my $name = $id;
-	$name =~ s/^.+[\/\\\:]+//g;
-	my $dir = catdir($PageDir, _CleanPath($id));
+	my($dir,$name) = GetPageDir(@_);
 	my $ext = $PageFileExt ? $PageFileExt : ".pg"; 
+	my $r;
 	foreach my $filename ($name . $ext, "content$ext") {
-		$filename = catfile($dir,$filename);
-		return $filename if(-f $filename);
+		$filename = catfile($dir,$name,$filename);
+		if(-f $filename) {
+			$r = $filename;
+			last;
+		}
 	}
-	return catfile($dir,$name . $ext);
+	$r = catfile($dir,$name . $ext) unless($r);
+	$DEBUG->log("GetPageFile @_=>$r\n");
+	return $r;
+}
+
+
+$HOOK->hook($PACKAGE_MAIN,"GetPageFile","GetPageDirectory","CreatePageDir");
+sub NewCreatePageDir {
+  my ($dir, $id) = @_;
+  my $page_dir = GetPageDir($id);
+  $DEBUG->log("CreatePageDir: $page_dir\n");
+  ExMakeDir($page_dir) unless(-d $page_dir);
 }
 sub NewGetPageDirectory {
-    return "" unless($_[0]);
-    my $id = $_[0];_
-#	$id = $UTILS->unescape_id($id);
+    my $id = shift;
+	return "" unless($id);
     $id =~ s/:+/\//g;
     $id =~ s/^\/+//g;
     if($id =~ /\//) {
@@ -82,41 +148,17 @@ sub NewGetPageDirectory {
     else {
         $id = "";
     }
-    &xrz_debug_log("GetPageDirectory:@_==>$id\n");
-    return "$id";
+    $DEBUG->log("GetPageDirectory:@_=>$id\n");
+    return $id;
 }
 
-&xrz_debug_hook("GetKeepFile");
-sub NewGetKeepFile {
-  my ($id, $revision) = @_; die 'No revision' unless $revision; #FIXME
-  my $r = $KeepDir . '/' . _CleanPath($id) . "/$revision.kp";
-  &xrz_debug_log("GetKeepFile:@_===>$r\n");
-  return $r;
-}
-&xrz_debug_hook("GetKeepDir");
-sub NewGetKeepDir {
-  my $id = shift; die 'No id' unless $id;
-  my $r = $KeepDir . '/' . _CleanPath($id);
-  &xrz_debug_log("GetKeepDir:$r\n");
-  return $r;
-}
-&xrz_debug_hook("GetKeepFiles");
-sub NewGetKeepFiles {
-    my $id = shift;
-    my @files = glob(NewGetKeepDir($id) . "/*.kp");
-    &xrz_debug_log("GetKeepFiles: $id====>@files\n");
-    if($FSEncodingName && @files) {
-        map {$_ = _from_to($_,$FSEncodingName,"utf8");$_} @files;
-    }
-    &xrz_debug_log("GetKeepFiles: @files\n");
-    return @files;
-}
 
-&xrz_debug_hook("GetLockedPageFile");
+$HOOK->hook($PACKAGE_MAIN,"GetLockedPageFile");
 sub NewGetLockedPageFile {
   my $id = shift;
-  return $PageDir . '/' . _CleanPath($id) .  ".lck";
+  return catfile(NewGetKeepDir($id) .  ".lck");
 }
+1;
 
 
 

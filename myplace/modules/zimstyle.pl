@@ -1,1 +1,0 @@
-../../source/zimstyle.pl

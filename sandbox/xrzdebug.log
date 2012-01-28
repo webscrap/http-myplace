@@ -5855,3 +5855,801 @@ CreateDir /myplace/workspace/wiki/sandbox/temp
 ResolveId faild for AppleScript
 ResolveId faild for Main:WhatEver
 ResolveId faild for Main:WhatEver
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Read /myplace/workspace/www/sandbox/keep/M/Main/38.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/37.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/36.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/35.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/34.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/33.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/32.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/31.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/30.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/29.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/28.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/27.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/26.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/25.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/24.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/23.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/22.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/21.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/20.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/19.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/18.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/17.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/16.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/15.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/14.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/13.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/12.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/11.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/10.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/9.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/8.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/7.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/6.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/5.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/4.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/3.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/2.kp
+CreateDir /myplace/workspace/www/sandbox/page
+CreateDir /myplace/workspace/www/sandbox/page/M
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+CreateDir /myplace/workspace/www/sandbox/temp
+CreateDir /myplace/workspace/www/sandbox/page
+CreateDir /myplace/workspace/www/sandbox/page/M
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+ResolveId faild for HelloWorld
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+CreateDir /myplace/workspace/www/sandbox/keep
+CreateDir /myplace/workspace/www/sandbox/keep/M
+CreateDir /myplace/workspace/www/sandbox/keep/M/Main
+Read /myplace/workspace/www/sandbox/keep/M/Main/39.kp
+CreateDir /myplace/workspace/www/sandbox/page
+CreateDir /myplace/workspace/www/sandbox/page/M
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+ResolveId faild for HelloWorld
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+CreateDir /myplace/workspace/www/sandbox/temp
+CreateDir /myplace/workspace/www/sandbox/page
+CreateDir /myplace/workspace/www/sandbox/page/H
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/H/HelloWorld.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/H/HelloWorld.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+ResolveId faild for BannedContent
+ResolveId faild for BannedHosts
+ResolveId faild for InterMap
+ResolveId faild for RssExclude
+ResolveId faild for RssInterwikiTranslate
+ResolveId faild for css
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/W/WhatEver.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+CreateDir /myplace/workspace/www/sandbox/keep
+CreateDir /myplace/workspace/www/sandbox/keep/M
+CreateDir /myplace/workspace/www/sandbox/keep/M/Main
+Read /myplace/workspace/www/sandbox/keep/M/Main/1.kp
+CreateDir /myplace/workspace/www/sandbox/page
+CreateDir /myplace/workspace/www/sandbox/page/M
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+CreateDir /myplace/workspace/www/sandbox/keep
+CreateDir /myplace/workspace/www/sandbox/keep/M
+CreateDir /myplace/workspace/www/sandbox/keep/M/Main
+Read /myplace/workspace/www/sandbox/keep/M/Main/2.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/1.kp
+CreateDir /myplace/workspace/www/sandbox/page
+CreateDir /myplace/workspace/www/sandbox/page/M
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+ResolveId faild for Main:Here
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+CreateDir /myplace/workspace/www/sandbox/keep
+CreateDir /myplace/workspace/www/sandbox/keep/M
+CreateDir /myplace/workspace/www/sandbox/keep/M/Main
+Read /myplace/workspace/www/sandbox/keep/M/Main/3.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/2.kp
+Read /myplace/workspace/www/sandbox/keep/M/Main/1.kp
+CreateDir /myplace/workspace/www/sandbox/page
+CreateDir /myplace/workspace/www/sandbox/page/M
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+ResolveId faild for Here
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+CreateDir /myplace/workspace/www/sandbox/temp
+CreateDir /myplace/workspace/www/sandbox/page
+CreateDir /myplace/workspace/www/sandbox/page/H
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/H/Here.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/sandbox
+Read /myplace/workspace/www/sandbox/pageidx
+Read /myplace/workspace/www/sandbox/visitors.log
+CreateDir /myplace/workspace/www/sandbox/temp
+Read /myplace/workspace/www/sandbox/page/M/Main.pg

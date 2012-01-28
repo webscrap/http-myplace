@@ -1,6 +1,6 @@
 #package MyPlace::OddmuseMod::Style;
 
-use vars qw/$ModulesDescription %Action $Message @MyRules %RuleOrder $OpenPageName %Action $q $ImageExtensions $AllNetworkFiles $ModuleDir $ModuleXRZUtils/;
+use vars qw/$ModulesDescription %Action $Message @MyRules %RuleOrder $OpenPageName %Action $q $ImageExtensions $AllNetworkFiles $ModuleDir $ModuleXRZUtils $PageDir/;
 use File::Spec::Functions;
 use File::Basename;
 use File::Glob qw/:glob/;
@@ -65,11 +65,27 @@ sub DoSource {
   print $text;
   return;
 }
+
+
 sub _GetDirectory {
-	my (undef,$p) = fileparse(GetPageFile(@_));
-	return $p;
+	my $id = shift;
+	$id =~ s/:/\//g;
+	if(!$id) {
+		return $PageDir;
+	}
+	elsif($id =~ m/^(.*)\/([^\/]+)$/) {
+		return catdir($PageDir,$1,$2);
+	}
+	else {
+		return catdir($PageDir,$id);
+	}
 }
 
+sub GetLocalImageUrl {
+    my ($path,$text) = @_;
+    return GetUrl($ZimRootUrl . $path,$text,0,1) unless($AllNetworkFiles);
+    return $q->img({-src=>'file://' . $PageDir . $path, -alt=>$text,-class=>'url file image'})
+}
 sub GetLocalUrl {
     my ($path,$text,$force_img) = @_;
     return GetUrl($ZimRootUrl . $path,$text,0,1) unless($AllNetworkFiles);
@@ -109,6 +125,7 @@ sub ZimLocalExp {
       #  $result = '<span>' . $exp . '</span>';
 		my @directory;
 		my @files;
+		my @images;
 		my $dirname = basename($p);
         foreach(bsd_glob($exp)) {
        #     $result .='<span>' . $_ . '</span>';
@@ -133,6 +150,9 @@ sub ZimLocalExp {
 					next;
 				}
 				push @txts,$safename;
+			}
+			elsif(/\.$ImageExtensions$/i) {
+				push @images,$safename;
 			}
             else {
 				push @files,$safename;
@@ -161,6 +181,12 @@ sub ZimLocalExp {
 			$text =~ s/(?:\/+$|^.*\/+)//;
             $result .= '<li>' . GetLocalUrl($page_name,$text,($cond1 && $cond1 eq '-img') ? 1:undef) . '</li>';
 		}
+		foreach(@images) {
+            my $page_name = substr($_,$pl);
+            my $text = $page_name;
+			$text =~ s/(?:\/+$|^.*\/+)//;
+			$result .= $q->blockquote(GetLocalImageUrl($page_name,$text));
+		}
     }
     return undef unless($result);
     return '<ol>' . $result . '</ol>';
@@ -170,11 +196,11 @@ sub ZimSupportRule {
     if (m/\G<\/?code>/cg) {
         return undef;
     }
-    elsif (m/\G(\[\[\s*(\.|\:)?([^ \t\[\]\|]+[^\|\[\]]+)\s*(\|\s*([^\]\[]+))?\s*\]\])/cg) {
+    elsif (m/\G(\[\[\s*(\.|\:)?([^ \t\[\]\|]+?[^\|\[\]]+?)(?:\s*\|\s*|\s+)([^\]\[]+)?\s*\]\])/cg) {
         Dirty($1);
         my $pos = $2;
         my $page_name = $3;
-        my $link_text = $5 || NormalToFree($page_name);
+        my $link_text = $4 || NormalToFree($page_name);
         my $prefix = "";
         if($pos eq '.' ) {
             $prefix = $OpenPageName . ":";

@@ -20,9 +20,10 @@ use vars qw/
 /;
 
 use MyPlace::OddmuseMod::Debug;
-use MyPlace::OddmuseMod::IO;
-use MyPlace::OddmuseMod::PageId;
-use MyPlace::OddmuseMod::Page;
+use MyPlace::OddmuseMod::Hook;
+my $PACKAGE_MAIN = 'OddMuse';
+my $DEBUG = new MyPlace::OddmuseMod::Debug;
+my $HOOK = new MyPlace::OddmuseMod::Hook;
 #do "$ModuleDir/xrzdebug.pl" if(!$ModuleXRZDebug and -f "$ModuleDir/xrzdebug.pl");
 #do "$ModuleDir/xrzio.pl" if($FSEncodingName and -f "$ModuleDir/xrzio.pl");
 #do "$ModuleDir/xrzpageid.pl" if(!$ModuleFixGetId and -f "$ModuleDir/xrzpageid.pl");
@@ -45,7 +46,16 @@ sub GetPageList {
     return @r;
 }
 
-xrz_debug_hook("AllPagesList");
+$HOOK->hook($PACKAGE_MAIN,
+	"AllPagesList",
+	"ParseData",
+	"EncodePage",
+	"GetSearchLink",
+	'PrintWikiToHTML',
+	'ResolveId',
+	'GetPageOrEditLink',
+);
+
 sub NewAllPagesList {
   my $refresh = GetParam('refresh', 0);
   return @IndexList if @IndexList and not $refresh;
@@ -78,7 +88,6 @@ sub NewAllPagesList {
 };
 
 
-xrz_debug_hook('ParseData','EncodePage');
 
 my $meta_start = "-"x9 . "<META>" . "-"x9 . "\n";
 my $meta_start_1 = "-"x9 . "<META>" . "-"x9 . "\r\n";
@@ -154,7 +163,6 @@ sub NewEncodePage {
   return $result . $meta_info;
 }
 
-xrz_debug_hook('PrintWikiToHTML');
 sub NewPrintWikiToHTML {
   my ($markup, $is_saving_cache, $revision, $is_locked) = @_;
   my ($blocks, $flags);
@@ -167,7 +175,6 @@ sub NewPrintWikiToHTML {
   return;
 }
 
-xrz_debug_hook(qw/ResolveId/);
 sub NewResolveId { 
   my $id = shift;
   return ('local', $id, '', 1) if $IndexHash{$id};
@@ -183,7 +190,6 @@ sub NewResolveId {
 }
 
 
-xrz_debug_hook(qw/GetSearchLink/);
 sub NewGetSearchLink {
     my $id = shift;
     if($id =~ /([\/:])/) {
@@ -201,7 +207,6 @@ sub NewGetSearchLink {
         return OldGetSearchLink($id,@_);
     }
 }
-xrz_debug_hook(qw/GetPageOrEditLink/);
 sub NewGetPageOrEditLink { # use GetPageLink and GetEditLink if you know the result!
   my ($id, $text, $bracket, $free) = @_;
   $id = FreeToNormal($id);

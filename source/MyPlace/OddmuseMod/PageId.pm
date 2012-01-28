@@ -8,22 +8,26 @@ $ModulesDescription .= '<p>$Id: xrzpageid.pl,v 0.1 2009/08/21 00:55:26 as Exp $<
 $ModuleFixGetId = 1;
 
 use MyPlace::OddmuseMod::Debug;
-  
-xrz_debug_hook("GetId");
-xrz_debug_hook("ValidId");
-xrz_debug_hook("UrlEncode");
-xrz_debug_hook("FreeToNormal");
+use MyPlace::OddmuseMod::Hook;
+my $PACKAGE_MAIN = 'OddMuse';
+my $DEBUG = new MyPlace::OddmuseMod::Debug;
+my $HOOK = new MyPlace::OddmuseMod::Hook;
+$HOOK->hook($PACKAGE_MAIN,qw/
+	ValidId
+	UrlEncode
+	FreeToNormal
+/);
 
 sub NewFreeToNormal {    # trim all spaces and convert them to underlines
-  my $id = shift;
-  return '' unless $id;
-  return $id;
-  $id =~ s/ /_/g;
-  if (index($id, '_') > -1) {  # Quick check for any space/underscores
-    $id =~ s/__+/_/g;
-    $id =~ s/^_//;
-    $id =~ s/_$//;
-  }
+	my $id = shift;
+#  return '' unless $id;
+#  return $id;
+#  $id =~ s/ /_/g;
+#  if (index($id, '_') > -1) {  # Quick check for any space/underscores
+#    $id =~ s/__+/_/g;
+#    $id =~ s/^_//;
+#    $id =~ s/_$//;
+#  }
   return $id;
 }
 sub NewUrlEncode {
@@ -57,7 +61,7 @@ sub NewGetId {
 #    my $name = $ENV{SCRIPT_NAME};
 #    my $uri = unescape($ENV{REQUEST_URI});
     my $id = join("_",$q->keywords);
-    if($UsePathInfo && !$id) {
+    if($UsePathInfo) {
         $id = GetPathInfo();
         #unless($id);
         #my @path = split(/\//,$uri);

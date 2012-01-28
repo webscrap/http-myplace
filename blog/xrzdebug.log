@@ -1074,3 +1074,244 @@ CleanPath: [Main] ===> [Main]
 Read /myplace/workspace/wiki/blog/page/Main.txt
 SCRIPT_NAME=/blog, REQUEST_URI=/blog/2009-08-24_已标点 , ID=2009-08-24_已标点
 CleanPath: [2009-08-24_已标点] ===> [2009-08-24_已标点]
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [ValidId] as [NewValidId], original saved to [OldValidId]
+Replace [UrlEncode] as [NewUrlEncode], original saved to [OldUrlEncode]
+Replace [FreeToNormal] as [NewFreeToNormal], original saved to [OldFreeToNormal]
+Replace [CreateKeepDir] as [NewCreateKeepDir], original saved to [OldCreateKeepDir]
+Replace [GetKeepFile] as [NewGetKeepFile], original saved to [OldGetKeepFile]
+Replace [GetKeepDir] as [NewGetKeepDir], original saved to [OldGetKeepDir]
+Replace [GetKeepFiles] as [NewGetKeepFiles], original saved to [OldGetKeepFiles]
+Replace [GetPageFile] as [NewGetPageFile], original saved to [OldGetPageFile]
+Replace [GetPageDirectory] as [NewGetPageDirectory], original saved to [OldGetPageDirectory]
+Replace [CreatePageDir] as [NewCreatePageDir], original saved to [OldCreatePageDir]
+Replace [GetLockedPageFile] as [NewGetLockedPageFile], original saved to [OldGetLockedPageFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/blog
+Read /myplace/workspace/www/blog/pageidx
+Read /myplace/workspace/www/blog/visitors.log
+CreateDir /myplace/workspace/www/blog/temp
+GetPageFile Categories=>/myplace/workspace/www/blog/page/Categories.txt
+Read /myplace/workspace/www/blog/page/Categories.txt
+GetPageFile Main=>/myplace/workspace/www/blog/page/Main.txt
+Read /myplace/workspace/www/blog/page/Main.txt
+GetPageFile Main=>/myplace/workspace/www/blog/page/Main.txt
+Read /myplace/workspace/www/blog/page/Main.txt
+GetKeepDir:Main => /myplace/workspace/www/blog/keep/Main
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [ValidId] as [NewValidId], original saved to [OldValidId]
+Replace [UrlEncode] as [NewUrlEncode], original saved to [OldUrlEncode]
+Replace [FreeToNormal] as [NewFreeToNormal], original saved to [OldFreeToNormal]
+Replace [CreateKeepDir] as [NewCreateKeepDir], original saved to [OldCreateKeepDir]
+Replace [GetKeepFile] as [NewGetKeepFile], original saved to [OldGetKeepFile]
+Replace [GetKeepDir] as [NewGetKeepDir], original saved to [OldGetKeepDir]
+Replace [GetKeepFiles] as [NewGetKeepFiles], original saved to [OldGetKeepFiles]
+Replace [GetPageFile] as [NewGetPageFile], original saved to [OldGetPageFile]
+Replace [GetPageDirectory] as [NewGetPageDirectory], original saved to [OldGetPageDirectory]
+Replace [CreatePageDir] as [NewCreatePageDir], original saved to [OldCreatePageDir]
+Replace [GetLockedPageFile] as [NewGetLockedPageFile], original saved to [OldGetLockedPageFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/blog
+Read /myplace/workspace/www/blog/pageidx
+Read /myplace/workspace/www/blog/visitors.log
+CreateDir /myplace/workspace/www/blog/temp
+GetPageFile BannedContent=>/myplace/workspace/www/blog/page/BannedContent.txt
+ResolveId faild for BannedContent
+GetPageFile BannedHosts=>/myplace/workspace/www/blog/page/BannedHosts.txt
+ResolveId faild for BannedHosts
+GetPageFile InterMap=>/myplace/workspace/www/blog/page/InterMap.txt
+ResolveId faild for InterMap
+GetPageFile RssExclude=>/myplace/workspace/www/blog/page/RssExclude.txt
+ResolveId faild for RssExclude
+GetPageFile RssInterwikiTranslate=>/myplace/workspace/www/blog/page/RssInterwikiTranslate.txt
+ResolveId faild for RssInterwikiTranslate
+GetPageFile css=>/myplace/workspace/www/blog/page/css.txt
+ResolveId faild for css
+GetPageFile Main=>/myplace/workspace/www/blog/page/Main.txt
+Read /myplace/workspace/www/blog/page/Main.txt
+GetPageFile Categories=>/myplace/workspace/www/blog/page/Categories.txt
+Read /myplace/workspace/www/blog/page/Categories.txt
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [ValidId] as [NewValidId], original saved to [OldValidId]
+Replace [UrlEncode] as [NewUrlEncode], original saved to [OldUrlEncode]
+Replace [FreeToNormal] as [NewFreeToNormal], original saved to [OldFreeToNormal]
+Replace [CreateKeepDir] as [NewCreateKeepDir], original saved to [OldCreateKeepDir]
+Replace [GetKeepFile] as [NewGetKeepFile], original saved to [OldGetKeepFile]
+Replace [GetKeepDir] as [NewGetKeepDir], original saved to [OldGetKeepDir]
+Replace [GetKeepFiles] as [NewGetKeepFiles], original saved to [OldGetKeepFiles]
+Replace [GetPageFile] as [NewGetPageFile], original saved to [OldGetPageFile]
+Replace [GetPageDirectory] as [NewGetPageDirectory], original saved to [OldGetPageDirectory]
+Replace [CreatePageDir] as [NewCreatePageDir], original saved to [OldCreatePageDir]
+Replace [GetLockedPageFile] as [NewGetLockedPageFile], original saved to [OldGetLockedPageFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/blog
+Read /myplace/workspace/www/blog/pageidx
+Read /myplace/workspace/www/blog/visitors.log
+CreateDir /myplace/workspace/www/blog/temp
+GetPageFile Main=>/myplace/workspace/www/blog/page/Main.txt
+Read /myplace/workspace/www/blog/page/Main.txt
+GetPageFile Categories=>/myplace/workspace/www/blog/page/Categories.txt
+Read /myplace/workspace/www/blog/page/Categories.txt
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [ValidId] as [NewValidId], original saved to [OldValidId]
+Replace [UrlEncode] as [NewUrlEncode], original saved to [OldUrlEncode]
+Replace [FreeToNormal] as [NewFreeToNormal], original saved to [OldFreeToNormal]
+Replace [CreateKeepDir] as [NewCreateKeepDir], original saved to [OldCreateKeepDir]
+Replace [GetKeepFile] as [NewGetKeepFile], original saved to [OldGetKeepFile]
+Replace [GetKeepDir] as [NewGetKeepDir], original saved to [OldGetKeepDir]
+Replace [GetKeepFiles] as [NewGetKeepFiles], original saved to [OldGetKeepFiles]
+Replace [GetPageFile] as [NewGetPageFile], original saved to [OldGetPageFile]
+Replace [GetPageDirectory] as [NewGetPageDirectory], original saved to [OldGetPageDirectory]
+Replace [CreatePageDir] as [NewCreatePageDir], original saved to [OldCreatePageDir]
+Replace [GetLockedPageFile] as [NewGetLockedPageFile], original saved to [OldGetLockedPageFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/blog
+Read /myplace/workspace/www/blog/pageidx
+Read /myplace/workspace/www/blog/visitors.log
+CreateDir /myplace/workspace/www/blog/temp
+GetPageFile Categories=>/myplace/workspace/www/blog/page/Categories.txt
+Read /myplace/workspace/www/blog/page/Categories.txt
+GetPageFile Categories=>/myplace/workspace/www/blog/page/Categories.txt
+Read /myplace/workspace/www/blog/page/Categories.txt
+GetPageFile 已标点=>/myplace/workspace/www/blog/page/已标点.txt
+ResolveId faild for 已标点
+GetPageFile 未标点=>/myplace/workspace/www/blog/page/未标点.txt
+ResolveId faild for 未标点
+GetPageFile Main=>/myplace/workspace/www/blog/page/Main.txt
+Read /myplace/workspace/www/blog/page/Main.txt
+GetKeepDir:Categories => /myplace/workspace/www/blog/keep/Categories
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [ValidId] as [NewValidId], original saved to [OldValidId]
+Replace [UrlEncode] as [NewUrlEncode], original saved to [OldUrlEncode]
+Replace [FreeToNormal] as [NewFreeToNormal], original saved to [OldFreeToNormal]
+Replace [CreateKeepDir] as [NewCreateKeepDir], original saved to [OldCreateKeepDir]
+Replace [GetKeepFile] as [NewGetKeepFile], original saved to [OldGetKeepFile]
+Replace [GetKeepDir] as [NewGetKeepDir], original saved to [OldGetKeepDir]
+Replace [GetKeepFiles] as [NewGetKeepFiles], original saved to [OldGetKeepFiles]
+Replace [GetPageFile] as [NewGetPageFile], original saved to [OldGetPageFile]
+Replace [GetPageDirectory] as [NewGetPageDirectory], original saved to [OldGetPageDirectory]
+Replace [CreatePageDir] as [NewCreatePageDir], original saved to [OldCreatePageDir]
+Replace [GetLockedPageFile] as [NewGetLockedPageFile], original saved to [OldGetLockedPageFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/blog
+Read /myplace/workspace/www/blog/pageidx
+Read /myplace/workspace/www/blog/visitors.log
+CreateDir /myplace/workspace/www/blog/temp
+GetPageFile Categories=>/myplace/workspace/www/blog/page/Categories.txt
+Read /myplace/workspace/www/blog/page/Categories.txt
+GetPageFile 2009-08-24_已标点=>/myplace/workspace/www/blog/page/2009-08-24_已标点.txt
+Read /myplace/workspace/www/blog/page/2009-08-24_已标点.txt
+GetPageFile Main=>/myplace/workspace/www/blog/page/Main.txt
+Read /myplace/workspace/www/blog/page/Main.txt
+GetKeepDir:2009-08-24_已标点 => /myplace/workspace/www/blog/keep/2009-08-24_已标点
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [ValidId] as [NewValidId], original saved to [OldValidId]
+Replace [UrlEncode] as [NewUrlEncode], original saved to [OldUrlEncode]
+Replace [FreeToNormal] as [NewFreeToNormal], original saved to [OldFreeToNormal]
+Replace [CreateKeepDir] as [NewCreateKeepDir], original saved to [OldCreateKeepDir]
+Replace [GetKeepFile] as [NewGetKeepFile], original saved to [OldGetKeepFile]
+Replace [GetKeepDir] as [NewGetKeepDir], original saved to [OldGetKeepDir]
+Replace [GetKeepFiles] as [NewGetKeepFiles], original saved to [OldGetKeepFiles]
+Replace [GetPageFile] as [NewGetPageFile], original saved to [OldGetPageFile]
+Replace [GetPageDirectory] as [NewGetPageDirectory], original saved to [OldGetPageDirectory]
+Replace [CreatePageDir] as [NewCreatePageDir], original saved to [OldCreatePageDir]
+Replace [GetLockedPageFile] as [NewGetLockedPageFile], original saved to [OldGetLockedPageFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/blog
+Read /myplace/workspace/www/blog/pageidx
+Read /myplace/workspace/www/blog/visitors.log
+CreateDir /myplace/workspace/www/blog/temp
+GetPageFile Categories=>/myplace/workspace/www/blog/page/Categories.txt
+Read /myplace/workspace/www/blog/page/Categories.txt
+GetPageFile 2010-05-17=>/myplace/workspace/www/blog/page/2010-05-17.txt
+Read /myplace/workspace/www/blog/page/2010-05-17.txt
+GetPageFile Main=>/myplace/workspace/www/blog/page/Main.txt
+Read /myplace/workspace/www/blog/page/Main.txt
+GetKeepDir:2010-05-17 => /myplace/workspace/www/blog/keep/2010-05-17
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+Replace [ValidId] as [NewValidId], original saved to [OldValidId]
+Replace [UrlEncode] as [NewUrlEncode], original saved to [OldUrlEncode]
+Replace [FreeToNormal] as [NewFreeToNormal], original saved to [OldFreeToNormal]
+Replace [CreateKeepDir] as [NewCreateKeepDir], original saved to [OldCreateKeepDir]
+Replace [GetKeepFile] as [NewGetKeepFile], original saved to [OldGetKeepFile]
+Replace [GetKeepDir] as [NewGetKeepDir], original saved to [OldGetKeepDir]
+Replace [GetKeepFiles] as [NewGetKeepFiles], original saved to [OldGetKeepFiles]
+Replace [GetPageFile] as [NewGetPageFile], original saved to [OldGetPageFile]
+Replace [GetPageDirectory] as [NewGetPageDirectory], original saved to [OldGetPageDirectory]
+Replace [CreatePageDir] as [NewCreatePageDir], original saved to [OldCreatePageDir]
+Replace [GetLockedPageFile] as [NewGetLockedPageFile], original saved to [OldGetLockedPageFile]
+Replace [AllPagesList] as [NewAllPagesList], original saved to [OldAllPagesList]
+Replace [ParseData] as [NewParseData], original saved to [OldParseData]
+Replace [EncodePage] as [NewEncodePage], original saved to [OldEncodePage]
+Replace [GetSearchLink] as [NewGetSearchLink], original saved to [OldGetSearchLink]
+Replace [PrintWikiToHTML] as [NewPrintWikiToHTML], original saved to [OldPrintWikiToHTML]
+Replace [ResolveId] as [NewResolveId], original saved to [OldResolveId]
+Replace [GetPageOrEditLink] as [NewGetPageOrEditLink], original saved to [OldGetPageOrEditLink]
+CreateDir /myplace/workspace/www/blog
+Read /myplace/workspace/www/blog/pageidx
+Read /myplace/workspace/www/blog/visitors.log
+CreateDir /myplace/workspace/www/blog/temp
+GetPageFile Categories=>/myplace/workspace/www/blog/page/Categories.txt
+Read /myplace/workspace/www/blog/page/Categories.txt
+GetPageFile Main=>/myplace/workspace/www/blog/page/Main.txt
+Read /myplace/workspace/www/blog/page/Main.txt
+GetPageFile Main=>/myplace/workspace/www/blog/page/Main.txt
+Read /myplace/workspace/www/blog/page/Main.txt
+GetKeepDir:Main => /myplace/workspace/www/blog/keep/Main
