@@ -70,3 +70,29 @@ Read /myplace/workspace/www/wiki/pageidx
 Read /myplace/workspace/www/wiki/visitors.log
 CreateDir /myplace/workspace/www/wiki/temp
 Read /myplace/workspace/www/wiki/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/wiki
+Read /myplace/workspace/www/wiki/pageidx
+Read /myplace/workspace/www/wiki/visitors.log
+CreateDir /myplace/workspace/www/wiki/temp
+Read /myplace/workspace/www/wiki/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/wiki
+Read /myplace/workspace/www/wiki/pageidx
+Read /myplace/workspace/www/wiki/visitors.log
+CreateDir /myplace/workspace/www/wiki/temp
+Read /myplace/workspace/www/wiki/page/M/Main.pg
+Replace [CreateDir] as [NewCreateDir], original saved to [OldCreateDir]
+Replace [WriteStringToFile] as [NewWriteStringToFile], original saved to [OldWriteStringToFile]
+Replace [ReadFile] as [NewReadFile], original saved to [OldReadFile]
+Replace [AppendStringToFile] as [NewAppendStringToFile], original saved to [OldAppendStringToFile]
+CreateDir /myplace/workspace/www/wiki
+Read /myplace/workspace/www/wiki/pageidx
+Read /myplace/workspace/www/wiki/visitors.log
+CreateDir /myplace/workspace/www/wiki/temp

@@ -7,6 +7,13 @@ use File::Glob qw/:glob/;
 
 $ModulesDescription .= '<p>$Id: zimstyle.pl,v 0.1 2009/08/21 00:55:26 as Exp $</p>';
 
+
+
+use vars qw/$MS_LI_BEGIN $MS_LI_END/;
+$MS_LI_BEGIN = "<li>";
+$MS_LI_END = "</li>";
+
+
 #do "$ModuleDir/xrzutils.pl" unless($ModuleXRZUtils);
 
 $AllNetworkFiles = 1;
@@ -114,7 +121,7 @@ sub ZimLocalExp {
         $cond2 = 1 unless($cond2);
         $cond3 = "0$cond3" if($cond3);
         foreach my $i ($cond1 .. $cond2) {
-            $result .= '<li>' . ZimLocalUrl(sprintf('%s%' . $cond3 . 'd%s',$exp || "",$i,$cond4 || "")) . '</li>';
+            $result .= $MS_LI_BEGIN . ZimLocalUrl(sprintf('%s%' . $cond3 . 'd%s',$exp || "",$i,$cond4 || "")) . $MS_LI_END;
         }
     }
     else {
@@ -142,11 +149,13 @@ sub ZimLocalExp {
             next if($cond3 && m/$cond3/);
 			my $safename = $_;
 			#$safename =~ s/ /%20/g;
-            if( -d $_ ) {
+            if(-d $_ ) {
+				next if(-f "$_.txt");
 				push @directories,$safename;
             }
 			elsif(/([^\/]+)\.txt$/) {
-				if($1 and ($dirname eq $1 || 'content' eq $1)) {
+				#next if(-d "$1$2");
+				if($dirname eq $1 || 'content' eq $1) {
 					next;
 				}
 				push @txts,$safename;
@@ -165,21 +174,22 @@ sub ZimLocalExp {
 			$text =~ s/(?:\/+$|^.*\/+)//;
             $page_name =~ s/\//:/g;
             $page_name =~ s/(?:^\:+|\:+$)//;
-            $result .= '<li>' . GetPageOrEditLink($page_name,$text,0,0) . '</li>'; 
+            $result .= $MS_LI_BEGIN . GetPageOrEditLink($page_name,$text,0,0) . $MS_LI_END; 
 		}
 		foreach(@txts) {
             my $page_name = substr($_,$pl);
+			$page_name =~ s/\.txt$//i;
 			$page_name =~ s/\//:/g;
             $page_name =~ s/(?:^\:+|\:+$)//g;
             my $text = $page_name;
 			$text =~ s/.*://;
-			$result .= '<li>' . GetPageOrEditLink($page_name,"&lt;$text&gt;",0,0) . '<li>';
+			$result .= $q->li(GetPageOrEditLink($page_name,"&lt;$text&gt;",0,0));
 		}
 		foreach(@files) {
             my $page_name = substr($_,$pl);
             my $text = $page_name;
 			$text =~ s/(?:\/+$|^.*\/+)//;
-            $result .= '<li>' . GetLocalUrl($page_name,$text,($cond1 && $cond1 eq '-img') ? 1:undef) . '</li>';
+            $result .= $MS_LI_BEGIN . GetLocalUrl($page_name,$text,($cond1 && $cond1 eq '-img') ? 1:undef) . $MS_LI_END;
 		}
 		foreach(@images) {
             my $page_name = substr($_,$pl);

@@ -3,13 +3,14 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 AddComment	oddmuse/wiki.pl	/^sub AddComment {$/;"	s
 AddHtmlEnvironment	oddmuse/wiki.pl	/^sub AddHtmlEnvironment {  # add a new $html_tag$/;"	s
 AddOrCloseHtmlEnvironment	oddmuse/wiki.pl	/^sub AddOrCloseHtmlEnvironment {  # add $html_tag, if not already added; close, otherwise$/;"	s
 AddRecentVisitor	oddmuse/wiki.pl	/^sub AddRecentVisitor {$/;"	s
 AllPagesList	oddmuse/wiki.pl	/^sub AllPagesList {$/;"	s
 AppendStringToFile	oddmuse/wiki.pl	/^sub AppendStringToFile {$/;"	s
+ApplyMarkdownRule	MyPlace/OddmuseMod/Style.pm	/^sub ApplyMarkdownRule {$/;"	s
 ApplyRules	oddmuse/wiki.pl	/^sub ApplyRules {$/;"	s
 BannedContent	oddmuse/wiki.pl	/^sub BannedContent {$/;"	s
 BracketLink	oddmuse/wiki.pl	/^sub BracketLink {   # brackets can be removed via CSS$/;"	s
@@ -59,12 +60,13 @@ DoRollback	oddmuse/wiki.pl	/^sub DoRollback {$/;"	s
 DoRss	oddmuse/wiki.pl	/^sub DoRss {$/;"	s
 DoSearch	oddmuse/wiki.pl	/^sub DoSearch {$/;"	s
 DoShowVersion	oddmuse/wiki.pl	/^sub DoShowVersion {$/;"	s
+DoSource	MyPlace/OddmuseMod/Style.pm	/^sub DoSource {$/;"	s
 DoSurgeProtection	oddmuse/wiki.pl	/^sub DoSurgeProtection {$/;"	s
 DoUnlock	oddmuse/wiki.pl	/^sub DoUnlock {$/;"	s
 DoWikiRequest	oddmuse/wiki.pl	/^sub DoWikiRequest {$/;"	s
 EncodePage	oddmuse/wiki.pl	/^sub EncodePage {$/;"	s
 EscapeNewlines	oddmuse/wiki.pl	/^sub EscapeNewlines {$/;"	s
-ExMakeDir	xrzpage.pl	/^sub ExMakeDir {$/;"	s
+ExMakeDir	MyPlace/OddmuseMod/Page.pm	/^sub ExMakeDir {$/;"	s
 ExpireKeepFiles	oddmuse/wiki.pl	/^sub ExpireKeepFiles {   # call with opened page$/;"	s
 FileFresh	oddmuse/wiki.pl	/^sub FileFresh { # old files are never stale, current files are stale when the page was modified$/;"	s
 ForceReleaseLock	oddmuse/wiki.pl	/^sub ForceReleaseLock {$/;"	s
@@ -100,18 +102,20 @@ GetKeepRevisions	oddmuse/wiki.pl	/^sub GetKeepRevisions {$/;"	s
 GetKeptDiff	oddmuse/wiki.pl	/^sub GetKeptDiff {$/;"	s
 GetKeptRevision	oddmuse/wiki.pl	/^sub GetKeptRevision {   # Call after OpenPage$/;"	s
 GetLanguages	oddmuse/wiki.pl	/^sub GetLanguages {$/;"	s
-GetLocalUrl	zimstyle.pl	/^sub GetLocalUrl {$/;"	s
+GetLocalImageUrl	MyPlace/OddmuseMod/Style.pm	/^sub GetLocalImageUrl {$/;"	s
+GetLocalUrl	MyPlace/OddmuseMod/Style.pm	/^sub GetLocalUrl {$/;"	s
 GetLockedPageFile	oddmuse/wiki.pl	/^sub GetLockedPageFile {$/;"	s
 GetOldPageLink	oddmuse/wiki.pl	/^sub GetOldPageLink {$/;"	s
 GetPageContent	oddmuse/wiki.pl	/^sub GetPageContent {$/;"	s
+GetPageDir	MyPlace/OddmuseMod/Page.pm	/^sub GetPageDir {$/;"	s
 GetPageDirectory	oddmuse/wiki.pl	/^sub GetPageDirectory {$/;"	s
 GetPageFile	oddmuse/wiki.pl	/^sub GetPageFile {$/;"	s
 GetPageLink	oddmuse/wiki.pl	/^sub GetPageLink { # use if you want to force a link to local pages, whether it exists or not$/;"	s
-GetPageList	xrzdata.pl	/^sub GetPageList {$/;"	s
+GetPageList	MyPlace/OddmuseMod/Data.pm	/^sub GetPageList {$/;"	s
 GetPageOrEditLink	oddmuse/wiki.pl	/^sub GetPageOrEditLink { # use GetPageLink and GetEditLink if you know the result!$/;"	s
 GetPageParameters	oddmuse/wiki.pl	/^sub GetPageParameters {$/;"	s
 GetParam	oddmuse/wiki.pl	/^sub GetParam {$/;"	s
-GetPathInfo	xrzpageid.pl	/^sub GetPathInfo {$/;"	s
+GetPathInfo	MyPlace/OddmuseMod/PageId.pm	/^sub GetPathInfo {$/;"	s
 GetRCLink	oddmuse/wiki.pl	/^sub GetRCLink {$/;"	s
 GetRaw	oddmuse/wiki.pl	/^sub GetRaw {$/;"	s
 GetRcLines	oddmuse/wiki.pl	/^sub GetRcLines { # starttime, hash of seen pages to use as a second return value$/;"	s
@@ -149,29 +153,34 @@ LatestChanges	oddmuse/wiki.pl	/^sub LatestChanges {$/;"	s
 LinkRules	oddmuse/wiki.pl	/^sub LinkRules {$/;"	s
 ListRule	oddmuse/wiki.pl	/^sub ListRule {$/;"	s
 MergeRevisions	oddmuse/wiki.pl	/^sub MergeRevisions {   # merge change from file2 to file3 into file1$/;"	s
-NewAllPagesList	xrzdata.pl	/^sub NewAllPagesList {$/;"	s
-NewAppendStringToFile	xrzio.pl	/^sub NewAppendStringToFile {$/;"	s
-NewCreateDir	xrzio.pl	/^sub NewCreateDir {$/;"	s
-NewCreateKeepDir	xrzpage.pl	/^sub NewCreateKeepDir {$/;"	s
-NewCreatePageDir	xrzpage.pl	/^sub NewCreatePageDir {$/;"	s
-NewEncodePage	xrzdata.pl	/^sub NewEncodePage {$/;"	s
-NewGetId	xrzpageid.pl	/^sub NewGetId {$/;"	s
-NewGetKeepDir	xrzpage.pl	/^sub NewGetKeepDir {$/;"	s
-NewGetKeepFile	xrzpage.pl	/^sub NewGetKeepFile {$/;"	s
-NewGetKeepFiles	xrzpage.pl	/^sub NewGetKeepFiles {$/;"	s
-NewGetLockedPageFile	xrzpage.pl	/^sub NewGetLockedPageFile {$/;"	s
-NewGetPageDirectory	xrzpage.pl	/^sub NewGetPageDirectory {$/;"	s
-NewGetPageFile	xrzpage.pl	/^sub NewGetPageFile {$/;"	s
-NewGetPageOrEditLink	xrzdata.pl	/^sub NewGetPageOrEditLink { # use GetPageLink and GetEditLink if you know the result!$/;"	s
-NewGetSearchLink	xrzdata.pl	/^sub NewGetSearchLink {$/;"	s
-NewParseData	xrzdata.pl	/^sub NewParseData {$/;"	s
-NewReadFile	xrzio.pl	/^sub NewReadFile {$/;"	s
-NewResolveId	xrzdata.pl	/^sub NewResolveId { $/;"	s
-NewSavePage	xrzdata.pl	/^sub NewSavePage { # updating the cache will not change timestamp and revision!$/;"	s
-NewUrlEncode	xrzpageid.pl	/^sub NewUrlEncode {$/;"	s
-NewValidId	xrzpageid.pl	/^sub NewValidId {$/;"	s
-NewWriteStringToFile	xrzio.pl	/^sub NewWriteStringToFile {$/;"	s
+MyPlace::OddmuseMod::Debug	MyPlace/OddmuseMod/Debug.pm	/^package MyPlace::OddmuseMod::Debug;$/;"	p
+MyPlace::OddmuseMod::Hook	MyPlace/OddmuseMod/Hook.pm	/^package MyPlace::OddmuseMod::Hook;$/;"	p
+MyPlace::OddmuseMod::Utils	MyPlace/OddmuseMod/Utils.pm	/^package MyPlace::OddmuseMod::Utils;$/;"	p
+NewAllPagesList	MyPlace/OddmuseMod/Data.pm	/^sub NewAllPagesList {$/;"	s
+NewAppendStringToFile	MyPlace/OddmuseMod/IO.pm	/^sub NewAppendStringToFile {$/;"	s
+NewCreateDir	MyPlace/OddmuseMod/IO.pm	/^sub NewCreateDir {$/;"	s
+NewCreateKeepDir	MyPlace/OddmuseMod/Page.pm	/^sub NewCreateKeepDir {$/;"	s
+NewCreatePageDir	MyPlace/OddmuseMod/Page.pm	/^sub NewCreatePageDir {$/;"	s
+NewEncodePage	MyPlace/OddmuseMod/Data.pm	/^sub NewEncodePage {$/;"	s
+NewFreeToNormal	MyPlace/OddmuseMod/PageId.pm	/^sub NewFreeToNormal {    # trim all spaces and convert them to underlines$/;"	s
+NewGetId	MyPlace/OddmuseMod/PageId.pm	/^sub NewGetId {$/;"	s
+NewGetKeepDir	MyPlace/OddmuseMod/Page.pm	/^sub NewGetKeepDir {$/;"	s
+NewGetKeepFile	MyPlace/OddmuseMod/Page.pm	/^sub NewGetKeepFile {$/;"	s
+NewGetKeepFiles	MyPlace/OddmuseMod/Page.pm	/^sub NewGetKeepFiles {$/;"	s
+NewGetLockedPageFile	MyPlace/OddmuseMod/Page.pm	/^sub NewGetLockedPageFile {$/;"	s
+NewGetPageDirectory	MyPlace/OddmuseMod/Page.pm	/^sub NewGetPageDirectory {$/;"	s
+NewGetPageFile	MyPlace/OddmuseMod/Page.pm	/^sub NewGetPageFile {$/;"	s
+NewGetPageOrEditLink	MyPlace/OddmuseMod/Data.pm	/^sub NewGetPageOrEditLink { # use GetPageLink and GetEditLink if you know the result!$/;"	s
+NewGetSearchLink	MyPlace/OddmuseMod/Data.pm	/^sub NewGetSearchLink {$/;"	s
+NewParseData	MyPlace/OddmuseMod/Data.pm	/^sub NewParseData {$/;"	s
+NewPrintWikiToHTML	MyPlace/OddmuseMod/Data.pm	/^sub NewPrintWikiToHTML {$/;"	s
+NewReadFile	MyPlace/OddmuseMod/IO.pm	/^sub NewReadFile {$/;"	s
+NewResolveId	MyPlace/OddmuseMod/Data.pm	/^sub NewResolveId { $/;"	s
+NewUrlEncode	MyPlace/OddmuseMod/PageId.pm	/^sub NewUrlEncode {$/;"	s
+NewValidId	MyPlace/OddmuseMod/PageId.pm	/^sub NewValidId {$/;"	s
+NewWriteStringToFile	MyPlace/OddmuseMod/IO.pm	/^sub NewWriteStringToFile {$/;"	s
 NormalToFree	oddmuse/wiki.pl	/^sub NormalToFree {$/;"	s
+OddMuse	MyPlace/OddmuseMod/Utils.pm	/^package OddMuse;$/;"	p
 OddMuse	oddmuse/wiki.pl	/^package OddMuse;$/;"	p
 OpenHtmlEnvironment	oddmuse/wiki.pl	/^sub OpenHtmlEnvironment {  # close the previous $html_tag and open a new one$/;"	s
 OpenPage	oddmuse/wiki.pl	/^sub OpenPage {      # Sets global variables$/;"	s
@@ -181,6 +190,8 @@ PageFresh	oddmuse/wiki.pl	/^sub PageFresh { # pages can depend on other pages (i
 PageHtml	oddmuse/wiki.pl	/^sub PageHtml {  #FIXME: A bit buggy, this. STDOUT should be explicitly closed before returning.$/;"	s
 PageIsUploadedFile	oddmuse/wiki.pl	/^sub PageIsUploadedFile {$/;"	s
 ParseData	oddmuse/wiki.pl	/^sub ParseData {      # called a lot during search, so it was optimized$/;"	s
+PostMarkdownRule	MyPlace/OddmuseMod/Style.pm	/^sub PostMarkdownRule {$/;"	s
+PreMarkdownRule	MyPlace/OddmuseMod/Style.pm	/^sub PreMarkdownRule {$/;"	s
 PrintAllPages	oddmuse/wiki.pl	/^sub PrintAllPages {$/;"	s
 PrintCache	oddmuse/wiki.pl	/^sub PrintCache {    # Use after OpenPage!$/;"	s
 PrintFooter	oddmuse/wiki.pl	/^sub PrintFooter {$/;"	s
@@ -261,13 +272,15 @@ ValidIdOrDie	oddmuse/wiki.pl	/^sub ValidIdOrDie {$/;"	s
 WriteRcLog	oddmuse/wiki.pl	/^sub WriteRcLog {$/;"	s
 WriteRecentVisitors	oddmuse/wiki.pl	/^sub WriteRecentVisitors {$/;"	s
 WriteStringToFile	oddmuse/wiki.pl	/^sub WriteStringToFile {$/;"	s
-ZimLocalExp	zimstyle.pl	/^sub ZimLocalExp {$/;"	s
-ZimLocalUrl	zimstyle.pl	/^sub ZimLocalUrl {$/;"	s
-ZimSupportRule	zimstyle.pl	/^sub ZimSupportRule {$/;"	s
-_BaseName	xrzpage.pl	/^sub _BaseName {$/;"	s
-_CleanPath	xrzpage.pl	/^sub _CleanPath {$/;"	s
-_GetDirectory	zimstyle.pl	/^sub _GetDirectory {$/;"	s
-_from_to	xrzdebug.pl	/^sub _from_to {$/;"	s
+ZimLocalExp	MyPlace/OddmuseMod/Style.pm	/^sub ZimLocalExp {$/;"	s
+ZimLocalUrl	MyPlace/OddmuseMod/Style.pm	/^sub ZimLocalUrl {$/;"	s
+ZimSupportRule	MyPlace/OddmuseMod/Style.pm	/^sub ZimSupportRule {$/;"	s
+_BaseName	MyPlace/OddmuseMod/Page.pm	/^sub _BaseName {$/;"	s
+_CleanPath	MyPlace/OddmuseMod/Page.pm	/^sub _CleanPath {$/;"	s
+_GetDirectory	MyPlace/OddmuseMod/Style.pm	/^sub _GetDirectory {$/;"	s
+_from_to	MyPlace/OddmuseMod/Debug.pm	/^sub _from_to {$/;"	s
+escape_id	MyPlace/OddmuseMod/Utils.pm	/^sub escape_id {$/;"	s
+hook	MyPlace/OddmuseMod/Hook.pm	/^sub hook {$/;"	s
 http	oddmuse/wiki.pl	/^             http:\/\/www.emacswiki.org\/css\/beige-red.css$/;"	l
 http	oddmuse/wiki.pl	/^             http:\/\/www.emacswiki.org\/css\/blue.css$/;"	l
 http	oddmuse/wiki.pl	/^             http:\/\/www.emacswiki.org\/css\/cali.css$/;"	l
@@ -275,8 +288,14 @@ http	oddmuse/wiki.pl	/^             http:\/\/www.emacswiki.org\/css\/green.css$/
 http	oddmuse/wiki.pl	/^             http:\/\/www.emacswiki.org\/css\/hug.css$/;"	l
 http	oddmuse/wiki.pl	/^             http:\/\/www.emacswiki.org\/css\/oddmuse.css$/;"	l
 http	oddmuse/wiki.pl	/^             http:\/\/www.emacswiki.org\/css\/wikio.css); # List of Oddmuse CSS URLs$/;"	l
+log	MyPlace/OddmuseMod/Debug.pm	/^sub log {$/;"	s
+new	MyPlace/OddmuseMod/Debug.pm	/^sub new {$/;"	s
+new	MyPlace/OddmuseMod/Hook.pm	/^sub new {$/;"	s
+new	MyPlace/OddmuseMod/Utils.pm	/^sub new {$/;"	s
+split_id	MyPlace/OddmuseMod/Page.pm	/^sub split_id {$/;"	s
+unescape_id	MyPlace/OddmuseMod/Utils.pm	/^sub unescape_id {$/;"	s
 xmlns	oddmuse/wiki.pl	/^    xmlns:cc="http:\/\/backend.userland.com\/creativeCommonsRssModule">$/;"	l
 xmlns	oddmuse/wiki.pl	/^    xmlns:wiki="http:\/\/purl.org\/rss\/1.0\/modules\/wiki\/"$/;"	l
-xrz_debug_hook	xrzdebug.pl	/^sub xrz_debug_hook {$/;"	s
-xrz_debug_log	xrzdebug.pl	/^sub xrz_debug_log {$/;"	s
-xrz_debug_return	xrzdebug.pl	/^sub xrz_debug_return {$/;"	s
+xrz_debug_hook	MyPlace/OddmuseMod/Debug.pm	/^sub xrz_debug_hook {$/;"	s
+xrz_debug_log	MyPlace/OddmuseMod/Debug.pm	/^sub xrz_debug_log {$/;"	s
+xrz_debug_return	MyPlace/OddmuseMod/Debug.pm	/^sub xrz_debug_return {$/;"	s

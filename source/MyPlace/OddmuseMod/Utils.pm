@@ -1,10 +1,15 @@
 
 package MyPlace::OddmuseMod::Utils;
 use strict;
+use MyPlace::OddmuseMod::Debug;
+my $DEBUG = new MyPlace::OddmuseMod::Debug;
+my $SELF;
 
 sub new {
+	return $SELF if($SELF);
 	my $class = shift;
-	return bless {@_},$class;
+	$SELF = bless \$class,$class;
+	return $SELF;
 }
 
 sub escape_id {
@@ -20,6 +25,19 @@ sub unescape_id {
 	$id =~ s/%20/ /g;
 	return $id;
 }
+
+sub importSymbol {
+	my $self = shift;
+	my $target = shift;
+	my $source = shift;
+	no strict 'refs';
+	foreach(@_) {
+		$DEBUG->log($target . "::$_ => $source" . "::$_\n");
+		${$target . "::"}{$_} = ${$source . "::"}{$_};
+	}
+}
+
+__PACKAGE__->new();
 
 1;
 

@@ -40,6 +40,7 @@ use MyPlace::OddmuseMod::PageId;
 use MyPlace::OddmuseMod::Page;
 use MyPlace::OddmuseMod::Data;
 use MyPlace::OddmuseMod::Style;
+use MyPlace::OddmuseMod::Action;
 #my $mod = new MyPlace::OddmuseMod;
 $Action{'dump'} = sub {
 	use Data::Dumper;
